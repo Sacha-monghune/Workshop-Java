@@ -8,6 +8,10 @@ public class Motorcycle extends Vehicle {
         Wheels = wheels;
     }
 
+    public void accelerate() {
+        System.out.println("My "+Brand + " goes like this : vrrrrRRRRRRRrrrrr !");
+    }
+
     public void describe() {
         System.out.println("I'm "+Brand + " "+Model + " made in "+Year);
         System.out.println("I'm a Motorcycle, I weight "+Weight + " kg and I have "+Wheels + " weels\n");
